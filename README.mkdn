@@ -1,10 +1,16 @@
-![alt text](http://stats.liquidsmooth.net/images/logo2.png "LiquidSmooth")
-LiquidSmooth Source
+
+LiquidDark Source 
+----------------------
+
+<img src="https://raw.githubusercontent.com/t-rex/android/lp5.1-layers/LiquidDark-Logo.png">
+
+Thanks LiquidSmooth Rom DEV Team for your work !!!!!
 ===================
-To get started with LiquidSmooth, you'll need to get
+To get started with LiquidDark, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
 
-Create the Directories 
+
+Create the Directories
 ----------------------
 
 You will need to set up some directories in your build environment.
@@ -28,13 +34,13 @@ Now enter the following to initialize the repository:
 
     cd ~/liquid
 
-
 Repositories:
 ---------------
 
 Before you continue --> run this in the terminal
 
-    repo init -u git://github.com/LiquidSmooth/android.git -b lp5.1-layers
+
+    repo init -u git://github.com/t-rex600/android.git -b lp5.1-layers
 
     repo sync
     
@@ -68,36 +74,5 @@ Use the following as options...
 
 Example:
 ---------------
-    ./build-liquid.sh -c3 -p -o3 -j18 hammerhead
-
-Uploading to the LiquidSmooth Gerrit
----------------
-
-1st You must have local ssh keys on your computer if you do not here is a [guide] (http://goo.gl/86CfDP) to generate them.
-
-2nd Make an account on [Gerrit] (http://gerrit.liquidsmooth.net)
-
-3rd Add your ssh public key to your account
-
-4th Make your changes and commit them
-
-5th use the following command to push your commit to gerrit
-
-    git push ssh://USERNAME@gerrit.liquidsmooth.net:29418/LiquidSmooth-Devices/REPO_NAME HEAD:refs/for/5.1
-or
-
-    git push ssh://USERNAME@gerrit.liquidsmooth.net:29418/LiquidSmooth/REPO_NAME HEAD:refs/for/5.1
-
-6th You will get an error about a missing Change-ID in that error it will show you a suggested commit message copy the change id
-
-7th Do the following command and add the change id to the end of the commit message
-
-    git commit --amend
-
-Here is an example of what the commit message should look like:
-
-> Add how to push to gerrit
->
-> Change-Id: I93949d30d732de35222d9d78d1f94e33e4bffc47
-
-8th use the same command to push to gerrit and if you did everything properly it will be up on gerrit
+    ./build-liquid.sh -c3 -p -o3 -j12 hammerhead
+    ./build-liquid.sh -c3 -p -o3 -j12 mako
