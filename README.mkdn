@@ -2,7 +2,7 @@
 LiquidDark Source 
 ----------------------
 
-<img src="https://raw.githubusercontent.com/t-rex/android/lp5.1-layers/LiquidDark-Logo.png">
+<img src="https://raw.githubusercontent.com/t-rex600/android/lp5.1-layers/LiquidDark-Logo.png">
 
 Thanks LiquidSmooth Rom DEV Team for your work !!!!!
 ===================
