@@ -574,7 +574,7 @@
   <project path="packages/apps/FloatingActionButton" name="FloatingActionButton" remote="ls" revision="lp5.1" />
 
   <!-- LiquidDark Device -->
-  <project path="device/asus/flo" name="device_asus_flo" remote="ld" revision="lp5.1" />
+  <project path="device/asus/flo" name="android_device_asus_flo" remote="ld" revision="lp5.1" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="ld" revision="lp5.1" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="ld" revision="lp5.1" />
   <project path="device/lge/hammerheadcaf" name="android_device_lge_hammerheadcaf" remote="ld" revision="lp5.1" />
