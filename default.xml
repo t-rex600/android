@@ -548,7 +548,7 @@
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-12.1" />
 
   <!-- SlimLauncher -->
-  <project path="packages/apps/SlimLauncher" name="packages_apps_SlimLauncher" remote="ld" revision="lp5.1" />
+  <project path="packages/apps/SlimLauncher" name="SlimRoms/packages_apps_SlimLauncher" remote="github" revision="lp5.1" />
 
   <!--Power Hal -->
   <project path="hardware/cm" name="SlimRoms/hardware_cm" remote="github" revision="lp5.1" />
