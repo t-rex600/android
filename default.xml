@@ -27,6 +27,12 @@
            fetch="https://github.com/LiquidSmooth/"
            review="https://gerrit.liquidsmooth.net/"/>
 
+  <remote  name="ld"
+           fetch="https://github.com/t-rex600" />
+
+  <remote  name="tr"
+           fetch="https://github.com/TREX-ROM" />
+
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod" />
 
@@ -381,15 +387,15 @@
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
 
-<!-- LS REPOS -->
+<!-- LD REPOS -->
  
-   <project path="android" name="android" remote="ls" revision="mm6.0" />
+   <project path="android" name="android" remote="ld" revision="mm6.0" />
   
-   <project path="build" name="android_build" remote="ls" revision="mm6.0" >
+   <project path="build" name="android_build" remote="ld" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   
-  <project path="vendor/liquid" name="android_vendor_liquid" remote="ls" revision="mm6.0" >
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="ld" revision="mm6.0" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
 
