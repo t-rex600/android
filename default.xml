@@ -477,8 +477,8 @@
   <project path="hardware/qcom/media-caf/msm8994" name="SlimRoms/hardware_qcom_media" remote="github" revision="mm6.0-caf-8994" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="mm6.0-staging" />
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0-staging" />
-  <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-staging" />
-  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-caf-staging" />
+  <project path="hardware/ril" name="hardware_ril" remote="ld" revision="mm6.0-staging" />
+  <project path="hardware/ril-caf" name="hardware_ril" remote="ld" revision="mm6.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="mm6.0-staging" />
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="mm6.0-staging" />
   <!--project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0-staging" />-->
