@@ -478,13 +478,9 @@
   <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0" />
   <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="mm6.0" />
   <project path="libcore" name="SlimRoms/android_libcore" remote="github" revision="mm6.0" />
-   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-staging" />
-  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-caf-staging" />
-  <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="mm6.0-staging" />
-  <project path="hardware/ti/omap4" name="SlimRoms/hardware_ti_omap4" remote="github" revision="mm6.0-staging" />
-  <project path="hardware/ti/omap4xxx" name="SlimRoms/hardware_ti_omap4xxx" remote="github" revision="mm6.0-staging" />
-  <project path="hardware/ti/wlan" name="SlimRoms/hardware_ti_wlan" remote="github" revision="mm6.0-staging" />
-  <project path="hardware/ti/wpan" name="SlimRoms/hardware_ti_wpan" remote="github" revision="mm6.0-staging" />
+   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0" />
+  <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-caf" />
+  <project path="hardware/ti/omap3" name="SlimRoms/hardware_ti_omap3" remote="github" revision="mm6.0" />
   <!--project path="packages/apps/AudioFX" name="SlimRoms/packages_apps_AudioFX" remote="github" revision="mm6.0-staging" />-->
   <project path="packages/apps/Browser" name="SlimRoms/packages_apps_Browser" remote="github" revision="mm6.0" />
   <project path="packages/apps/Bluetooth" name="SlimRoms/packages_apps_Bluetooth" remote="github" revision="mm6.0" />
