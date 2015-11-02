@@ -537,7 +537,7 @@
   <project path="external/qrngd" name="SlimRoms/android_external_qrngd" remote="github" revision="mm6.0" />
 
   <!-- ffmpeg -->
-  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0-" />
+  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
   
   <!-- CM REPOS -->
