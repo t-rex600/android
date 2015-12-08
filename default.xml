@@ -39,7 +39,8 @@
     <default revision="refs/tags/android-6.0.0_r41"
            remote="aosp"
            sync-j="4" />
- 
+           
+  <project path="android" name="android" remote="ld" revision="mm6.0" />
   <project path="build" name="android_build" remote="ld" revision="mm6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -553,7 +554,6 @@
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
 
   <!-- New Additions for Liquid -->
-  <project path="android" name="android" remote="ld" revision="mm6.0" />
   <project path="vendor/liquid" name="android_vendor_liquid" remote="ld" revision="mm6.0" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
