@@ -1,0 +1,78 @@
+
+LiquidDark Source 
+----------------------
+
+<img src="https://raw.githubusercontent.com/t-rex600/android/mm6.0/LiquidDark-Logo.png">
+
+Thanks LiquidSmooth Rom DEV Team for your work !!!!!
+===================
+To get started with LiquidDark, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/version-control.html).
+
+
+Create the Directories
+----------------------
+
+You will need to set up some directories in your build environment.
+
+To create them run:
+
+    mkdir -p ~/bin
+    mkdir -p ~/liquid
+
+Install the Repository
+----------------------
+
+Enter the following to download the "repo" binary:
+
+    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+    chmod a+x ~/bin/repo
+
+You may need to reboot for these changes to take effect. 
+Now enter the following to initialize the repository:
+
+    cd ~/liquid
+
+Repositories:
+---------------
+
+Before you continue --> run this in the terminal
+
+
+    repo init -u git://github.com/t-rex600/android.git -b mm
+
+    repo sync
+    
+
+Building the System
+---------------
+
+Build LiquidSmooth with the following command
+
+    ./build-liquid.sh {options} {device}
+
+Use the following as options...
+---------------
+
+    Options:
+    -c# Cleanin options before build:
+            c1 - make liquid
+            c2 - make clean
+            c3 - make dirty
+            c4 - make magic
+            c5 - make kernelclean
+    -d  Use dex optimizations
+    -i  Static Initlogo
+    -j# Set jobs
+    -s  Sync before build
+    -p  Build using pipe
+    -o# Select GCC O Level
+            Valid O Levels are
+            1 (Os) or 3 (O3)
+    -z  create build log in 'build-logs'"
+
+Example:
+---------------
+    ./build-liquid.sh -c3 -p -o3 -j12 hammerhead
+    ./build-liquid.sh -c3 -p -o3 -j12 mako
