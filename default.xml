@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="gh"
            fetch="https://github.com/" />
   <remote  name="aosp"
@@ -23,15 +22,10 @@
   <remote  name="bb"
            fetch="https://bitbucket.org/" />
 
-
   <default revision="refs/tags/android-6.0.1_r3"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
-
-  
-  <!-- Manifest -->
-  <project path="android" name="android" remote="ld" revision="mm" />
 
   <project path="build" name="android_build" remote="ld" revision="mm">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -559,8 +553,11 @@
   <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="th" revision="mm" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-13.0" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="cm" revision="cm-13.0" />
-  <project path="vendor/liquid" name="vendor_liquid" remote="ld" revision="mm6.0" >
+  <project path="vendor/liquid" name="vendor_liquid" remote="ld" revision="mm" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
+  
+    <!-- Manifest -->
+  <project path="android" name="t-rex600/android" remote="github" revision="mm" />
 
 </manifest>
