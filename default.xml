@@ -33,7 +33,7 @@
   <!-- Manifest -->
   <project path="android" name="android" remote="ld" revision="mm" />
 
-  <project path="build" name="android_build" remote="ld" revision="mm6.0">
+  <project path="build" name="android_build" remote="ld" revision="mm">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
