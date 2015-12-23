@@ -544,8 +544,8 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 
   <!-- ffmpeg -->
-  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="github" revision="mm6.0" />
-  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="github" revision="mm6.0" />
+  <project path="external/ffmpeg" name="SlimRoms/android_external_ffmpeg" remote="gh" revision="mm6.0" />
+  <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" remote="gh" revision="mm6.0" />
 
   <!-- Vendors -->
   <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-13.0" />
@@ -558,6 +558,6 @@
   </project>
   
     <!-- Manifest -->
-  <project path="android" name="t-rex600/android" remote="github" revision="mm" />
+  <project path="android" name="t-rex600/android" remote="gh" revision="mm" />
 
 </manifest>
