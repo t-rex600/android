@@ -549,7 +549,7 @@
   <project path="vendor/qcom/opensource/display-frameworks" name="android_vendor_qcom_opensource_display-frameworks" remote="th" revision="mm" />
   <project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="cm" revision="cm-13.0" />
   <project path="vendor/qcom/opensource/time-services" name="android_vendor_qcom_opensource_time-services" remote="cm" revision="cm-13.0" />
-  <project path="vendor/liquid" name="vendor_liquid" remote="ld" revision="mm" >
+  <project path="vendor/liquid" name="android_vendor_liquid" remote="ld" revision="mm" >
     <copyfile src="tools/build-liquid.sh" dest="build-liquid.sh" />
   </project>
   
