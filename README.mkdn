@@ -4,7 +4,7 @@ LiquidDark Source
 
 <img src="https://raw.githubusercontent.com/t-rex600/android/mm6.0/LiquidDark-Logo.png">
 
-Thanks LiquidSmooth Rom DEV Team for your work !!!!!
+Thanks LiquidSmooth & TeamHorizon Rom DEV Team for your work !!!!!
 ===================
 To get started with LiquidDark, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/version-control.html).
