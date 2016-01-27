@@ -345,9 +345,9 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="SlimRoms/hardware_intel_img_psb_video" remote="github" revision="mm6.0" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" groups="intel_sensors" />
-  <project path="hardware/invensense" name="SlimRoms/hardware_invensense" remote="github" revision="mm6.0" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="ls" revision="mm6.0" />
-  <project path="hardware/libhardware_legacy" name="SlimRoms/hardware_libhardware_legacy" remote="github" revision="mm6.0" />
+  <project path="hardware/invensense" name="android_hardware_invensense" remote="cm" revision="cm-13.0" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-13.0" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-13.0" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
@@ -383,8 +383,8 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="SlimRoms/hardware_qcom_power" remote="github" revision="mm6.0" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0" />
-  <project path="hardware/qcom/wlan-caf" name="SlimRoms/hardware_qcom_wlan" remote="github" revision="mm6.0-caf" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0" />
+  <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" remote="cm" revision="cm-13.0-caf" />
   <project path="hardware/ril" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0" />
   <project path="hardware/ril-caf" name="SlimRoms/hardware_ril" remote="github" revision="mm6.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="SlimRoms/hardware_samsung_slsi_exynos5" remote="github" revision="mm6.0" />
@@ -516,7 +516,7 @@
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0" />
   <project path="system/media" name="android_system_media" remote="cm" revision="cm-13.0" />
   <project path="system/netd" name="android_system_netd" remote="cm" revision="cm-13.0" />
-  <project path="system/qcom" name="SlimRoms/android_system_qcom" remote="github" revision="mm6.0" />
+  <project path="system/qcom" name="android_system_qcom" remote="cm" revision="cm-13.0" />
   <project path="system/security" name="android_system_security" remote="cm" revision="cm-13.0" />
   <project path="system/vold" name="android_system_vold" remote="cm" revision="cm-13.0" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
