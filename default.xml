@@ -13,6 +13,9 @@
 
   <remote  name="ld"
            fetch="https://github.com/t-rex600" />
+           
+  <remote  name="th"
+           fetch="https://github.com/TeamHorizon/" />         
 
   <remote  name="tr"
            fetch="https://github.com/TREX-ROM" />
