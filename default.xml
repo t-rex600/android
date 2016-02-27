@@ -49,8 +49,8 @@
   </project>
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
-  <project path="art" name="android_art" groups="pdk" remote="th" revision="mm" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="mm" />
+  <project path="art" name="android_art" remote="cm" revision="cm-13.0"  />
+  <project path="bionic" name="android_bionic" remote="cm" revision="cm-13.0" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="th" revision="mm" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
@@ -74,7 +74,7 @@
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-commons-math" name="platform/external/apache-commons-math" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
-  <project path="external/apache-http" name="platform/external/apache-http" groups="pdk-cw-fs" />
+  <project path="external/apache-http" name="android_external_apache-http" remote="cm" revision="cm-13.0" />
   <project path="external/apache-xml" name="platform/external/apache-xml" groups="pdk-cw-fs" />
   <project path="external/bash" name="android_external_bash" remote="cm" revision="cm-13.0" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
@@ -531,7 +531,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/bt" name="android_system_bt" remote="th" revision="mm" />
   <project path="system/core" name="android_system_core" remote="ls" revision="mm6.0" groups="pdk" />
-  <project path="system/extras" name="system_extras" groups="pdk" remote="th" revision="mm" />
+  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-13.0" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" remote="github" revision="mm6.0" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="th" revision="mm" />
