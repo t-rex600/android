@@ -388,7 +388,7 @@
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="cm" revision="cm-13.0" groups="qcom" />  
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-13.0" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="cm" revision="cm-13.0" groups="qcom" />
-  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" remote="cm" revision="cm-13.0" groups="qcom" />
+  <project path="hardware/qcom/media/default" name="android_hardware_qcom_media" remote="ld" revision="cm-13.0" groups="qcom" />
   <project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8916" />
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="cm" revision="cm-13.0-caf-8960" />
