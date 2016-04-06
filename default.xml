@@ -533,7 +533,7 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/bt" name="android_system_bt" remote="th" revision="mm" />
   <project path="system/core" name="android_system_core" remote="th" revision="mm" />
-  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-13.0" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="th" revision="mm" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="th" revision="mm" />
