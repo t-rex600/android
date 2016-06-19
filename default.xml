@@ -350,16 +350,16 @@
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
-  <project name="CM-zenfone2/android_hardware_intel_common_libmix" path="hardware/intel/common/libmix" remote="gh" revision="cm-13.0" />
-  <project name="CM-zenfone2/android_hardware_intel_common_libstagefrighthw" path="hardware/intel/common/libstagefrighthw" remote="gh" revision="cm-13.0" />
-  <project name="CM-zenfone2/android_hardware_intel_common_libva" path="hardware/intel/common/libva" remote="gh" revision="cm-13.0" />
-  <project name="CM-zenfone2/android_hardware_intel_common_omx-components" path="hardware/intel/common/omx-components" remote="gh" revision="cm-13.0" />
-  <project name="CM-zenfone2/android_hardware_intel_common_utils" path="hardware/intel/common/utils" remote="gh" revision="cm-13.0" />
-  <project name="CM-zenfone2/android_hardware_intel_common_wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" remote="gh" revision="cm-13.0" />
-  <project name="CM-zenfone2/android_hardware_intel_img_hwcomposer" path="hardware/intel/img/hwcomposer" remote="gh" revision="cm-13.0" />
-  <project name="CM-zenfone2/android_hardware_intel_img_psb_video" path="hardware/intel/img/psb_video" remote="gh" revision="cm-13.0" />
-  <project path="hardware/intel/common/libwsbm" name="platform/hardware/intel/common/libwsbm" groups="intel" />
-  <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
+  <project name="CyanogenMod/android_hardware_intel_common_libmix" path="hardware/intel/common/libmix" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_common_libstagefrighthw" path="hardware/intel/common/libstagefrighthw" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_common_libva" path="hardware/intel/common/libva" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_common_omx-components" path="hardware/intel/common/omx-components" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_common_utils" path="hardware/intel/common/utils" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_common_wrs_omxil_core" path="hardware/intel/common/wrs_omxil_core" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_img_hwcomposer" path="hardware/intel/img/hwcomposer" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_img_psb_video" path="hardware/intel/img/psb_video" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_img_psb_headers" path="hardware/intel/img/psb_headers" remote="gh" revision="cm-13.0" />
+  <project name="CyanogenMod/android_hardware_intel_common_libwsbm" path="hardware/intel/common/libwsbm" remote="gh" revision="cm-13.0" />
   <project path="hardware/intel/sensors" name="platform/hardware/intel/sensors" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="cm" revision="cm-13.0" />
