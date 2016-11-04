@@ -48,6 +48,23 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+<!-- Initial fortunaxx3g -->
+      <!-- Device Tree -->
+      <!-- project path="device/samsung/fortunave3g" name="CarlosArriagaCM/android_device_samsung_fortunave3g" remote="github" revision="cm-13.0" /-->     
+      <project path="device/samsung/fortuna3g" name="CarlosArriagaCM/android_device_samsung_fortuna3g" remote="github" revision="mm6.0" />
+      <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
+
+      <!-- vendor -->
+      <project path="vendor/samsung/fortunave3g" name="ZIM555/android_vendor_samsung_fortunave3g" remote="github" revision="cm-13.0" />
+      <project path="vendor/samsung/fortuna3g" name="ZIM555/android_vendor_samsung_fortuna3g" remote="github" revision="cm-13.0" />
+
+      <!-- kernel -->
+      <project path="kernel/samsung/fortunaxx3g" name="CarlosArriagaCM/android_kernel_samsung_fortunaxx3g" remote="github" revision="cm-13.0" />
+
+      <!-- Extras -->
+      <project path="external/sony/boringssl-compat" name="CyanogenMod/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" />
+      <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />           
+           
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" groups="pdk" remote="th" revision="mm" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="th" revision="mm" />
